@@ -1,1 +1,24 @@
-<!-- Your HTML goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boston 311 Service Calls Bar Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Most Boston 311 Calls in 2023 Were About Abandoned Vehicles and Street Cleaning</h1>
+    <p class="subheadline">The chart shows the ten most common reasons residents contacted Boston's 311 service last year, ranked by number of requests.</p>
+    <div class="button-container">
+        <button id="toggleBtn" class="toggle-button">Show All Reasons</button>
+    </div>
+    <div id="chart"></div>
+    <footer class="footnotes">
+        <p><strong>Data Source:</strong> Boston 311 Service Calls Data (2025)</p>
+        <p><strong>Chart Created By:</strong> Mandy, Nurym and Dr. ChatGPT</p>
+    </footer>
+    <p class="chart-description">Enforcement & Abandoned Vehicles was the most common reason for 311 calls, with over 65,000 requests. Code Enforcement and Environmental Services were also among the top concerns. The data reflects residents' primary concerns regarding city maintenance, code violations, and neighborhood quality of life issues.</p>
+    <script src="script.js"></script>
+</body>
+</html>

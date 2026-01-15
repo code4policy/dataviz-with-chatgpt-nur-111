@@ -1,5 +1,5 @@
 # Dataviz With GPT
-
+Students Team: Mandy and Nurym
 ## Learning Objectives
 
 Students will be able to:
